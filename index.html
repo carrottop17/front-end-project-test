@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="FestivalSearchApp">
+<head>
+	<title></title>
+</head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
+
+
+
+
+<body>
+<div ng-controller="FestivalSearchController">
+
+	Search event
+	<form ng-submit="searchEvents()">
+	<input type="text" placeholder="Search event or festival" ng-model="eventQuery" ng-submit="searchEvents()">
+	</form>
+</div>
+
+
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src-"scripts.js"></script>
+<script src="controller.js"></script>
+</html>
